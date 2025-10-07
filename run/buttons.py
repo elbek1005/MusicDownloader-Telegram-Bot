@@ -2,13 +2,10 @@ from run import Button
 
 
 class Buttons:
-    source_code_button = [
-        Button.url("Source Code", url="https://github.com/AdibNikjou/MusicDownloader-Telegram-Bot")]
-
     main_menu_buttons = [
         [Button.inline("Instructions", b"instructions"), Button.inline("Settings", b"setting")],
-        source_code_button,
-        [Button.url("Contact Creator", url="telegram.me/adibnikjou")],
+        
+        [Button.url("Contact Creator", url="telegram.me/avanturist_1005")],
     ]
 
     back_button = Button.inline("<< Back To Main Menu", b"back")
